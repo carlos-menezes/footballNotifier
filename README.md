@@ -2,7 +2,6 @@
 ---
 > A Python application that sends you a SMS when the football team you support scores.
 
-
 ## Getting Started
 ---
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -16,8 +15,8 @@ These instructions will get you a copy of the project up and running on your loc
   This will install all the necessary packages to run this script.
 
 4. Open `config.ini`.
-  4.1. Add in your `NUMBER` and `TEAM` (e.g: Portugal, Sweden, Real Madrid)
-  4.2. Go to [Textlocal](https://www.textlocal.com/), register an account and then create an `API_KEY` [here](https://control.txtlocal.co.uk/settings/apikeys/). Copy the `API_KEY` key and fill it in `config.ini` accordingly.
+  * 4.1. Add in your `NUMBER` and `TEAM` (e.g: Portugal, Sweden, Real Madrid)
+  * 4.2. Go to [Textlocal](https://www.textlocal.com/), register an account and then create an `API_KEY` [here](https://control.txtlocal.co.uk/settings/apikeys/). Copy the `API_KEY` key and fill it in `config.ini` accordingly.
 5. Type `$ python app.py` in the terminal and the script will run for as long as you let it.
 
 > Textlocal has a limit of 10 messages per month, so let's hope your team doesn't score more than 10 goals per month!

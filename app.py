@@ -16,17 +16,10 @@ DATA = {
 URL = "https://api.txtlocal.com/send/"
 
 while True:
-    if str(MESSAGE) == "None":
-        pass
+    r = requests.post(URL, data=DATA)
+    RESPONSE = r.json()
 
-    elif MESSAGE != MESSAGE_BEFORE:
-        r = requests.post(URL, data=DATA)
-        RESPONSE = r.json()
+    if 'errors' in RESPONSE:
+        print(f"Error: {RESPONSE['errors'][0]['message']}")
 
-        if 'errors' in RESPONSE:
-            print(f"Error: {RESPONSE['errors'][0]['message']}")
-
-        MESSAGE_BEFORE = MESSAGE
-        
-    elif MESSAGE == MESSAGE_BEFORE:
-        pass
+    time.sleep(60)

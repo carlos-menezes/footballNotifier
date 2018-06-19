@@ -19,7 +19,11 @@ while True:
     r = requests.post(URL, data=DATA)
     RESPONSE = r.json()
 
-    if 'errors' in RESPONSE:
-        print(f"Error: {RESPONSE['errors'][0]['message']}")
+    if MESSAGE != MESSAGE_BEFORE:
+        if 'errors' in RESPONSE:
+            print(f"Error: {RESPONSE['errors'][0]['message']}")
+
+        MESSAGE_BEFORE = MESSAGE
+    
 
     time.sleep(60)

@@ -1,6 +1,6 @@
 # footballNotifier
 > A Python application that sends you a SMS when the football team you support scores.
----
+
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
@@ -21,13 +21,12 @@ These instructions will get you a copy of the project up and running on your loc
 
 If you follow these steps, you will receive a message on your phone when your team scores, as seen below:
 ![Example](https://i.imgur.com/lP7ULoi.png)
----
+
 ## To-Do
 [ ] Add support for multiple teams.
 
 [ ] Deploy the project on GitHub pages and allow more people to use this without having to install Python on their machine.
 
-[ ] Probably re-do a lot of the code. This is my second *"big"* Python project and I'm sure there are a lot of things I can optimize. I appreciate any PRs! :)
----
-### Thanks for checking the project!
+[ ] Probably re-do a lot of the code. I'm sure there are a lot of things I can optimize. I appreciate any PRs! :)
 
+### Thanks for checking the project!

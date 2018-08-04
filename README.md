@@ -23,10 +23,10 @@ If you follow these steps, you will receive a message on your phone when your te
 ![Example](https://i.imgur.com/lP7ULoi.png)
 
 ## To-Do
-[ ] Add support for multiple teams.
+- [ ] Add support for multiple teams.
 
-[ ] Deploy the project on GitHub pages and allow more people to use this without having to install Python on their machine.
+- [ ] Deploy the project on GitHub pages and allow more people to use this without having to install Python on their machine.
 
-[ ] Probably re-do a lot of the code. I'm sure there are a lot of things I can optimize. I appreciate any PRs! :)
+- [ ] Probably re-do a lot of the code. I'm sure there are a lot of things I can optimize. I appreciate any PRs! :)
 
 ### Thanks for checking the project!
